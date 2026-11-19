@@ -1,0 +1,30 @@
+# Build output
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.out
+
+# Code::Blocks
+*.depend
+*.layout
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Secrets / device credentials
+*.pem
+*.crt
+*.key
+secrets.h
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
